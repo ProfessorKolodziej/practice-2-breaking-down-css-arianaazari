@@ -20,8 +20,8 @@ body {
 .similar-font,
 .find-grid,
 .style-choice {
-    width: 800 px;
-    height: 800 px;
+    width: 800px;
+    height: 800px;
 }
 
 .similar-font {
@@ -79,6 +79,11 @@ body {
 }
 
 .style-choice {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #003053;
+    padding: 50px;
     background: url('../images/handmade-paper.png') 0% 0% / 100px 100px repeat, #FFF;
 }
 
@@ -87,5 +92,11 @@ body {
 }
 
 .style-choice-headline {
+    font-family: "Arizonia", serif;
+    font-weight: 400;
+    color: #003053;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 1;
     margin: 100px 0;
 }
