@@ -1,15 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #1E1E1E;
+}
+
 .page-title {
-    color: pink;
+    color: white;
 }
 
 .practice-problems {
-    border: 1 px solid red;
+    display: inline-flex;
+    gap: 150px;
 }
 
 .similar-font,
 .find-grid,
 .style-choice {
-    border: 5 px solid blue;
     width: 800 px;
     height: 800 px;
+}
+
+.similar-font {
+    background-color: #3D3E61;
+    color: white;
+    font-family: "Lekton", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.similar-font-headline {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 600;
+    color: #FFBF43;
+    text-transform: uppercase;
+    font-size: 64px;
+}
+
+.find-grid {
+    background-color: #FFFFFF;
+}
+
+.style-choice {
+    background: url('../images/handmade-paper.png') 0% 0% / 100px 100px repeat, #FFF;
 }
