@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Belanosima:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -45,13 +45,24 @@ body {
 }
 
 .find-grid {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #FFFFFF;
+    color: #003053;
     display: grid;
     grid-template-columns: repeat(8, 100px);
     grid-template-rows: repeat(8, 100px);
 }
 
 .find-grid-headline {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 700;
+    color: #003053;
+    text-transform: lowercase;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 1;
     grid-column: 2 / span 6;
     grid-row: 3 / span 2;
 }
