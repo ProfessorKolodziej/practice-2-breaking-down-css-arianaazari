@@ -1,1 +1,15 @@
+.page-title {
+    color: red;
+}
 
+.practice-problems {
+    border: 1 px solid red;
+}
+
+.similar-font,
+.find-grid,
+.style-choice {
+    border: 5 px solid blue;
+    width: 800 px;
+    height: 800 px;
+}
